@@ -1,0 +1,30 @@
+{
+  "_comment": "One shared timeline for both far-end videos. Each cue is a window (seconds) in which the far end speaks; the gaps between cues are where the room answers. Video 1 plays during the live call, video 2 plays alongside the room's recording, so both must speak in the same windows.",
+  "duration": 58,
+  "cues": [
+    {
+      "start": 0.5,
+      "end": 9,
+      "video1": "Hello, and welcome to the B S S conferencing bar demo. To start, could the person closest to the screen introduce themselves?",
+      "video2": "Hi everyone, thanks for joining. Before we start, who do we have in the room today?"
+    },
+    {
+      "start": 17,
+      "end": 26,
+      "video1": "Thank you. Now, someone at the far end of the table, tell me about your favourite meeting room in this office.",
+      "video2": "Good to meet you. How about the rest of the team, what is the space like where you are sitting?"
+    },
+    {
+      "start": 35,
+      "end": 43,
+      "video1": "Great. Last one. Everybody talk at once for a few seconds, and somebody tap on the table.",
+      "video2": "Sounds great. Is there anything else from the group before we wrap up?"
+    },
+    {
+      "start": 51,
+      "end": 57.5,
+      "video1": "Perfect. That is all we need. Let's see how you looked and sounded.",
+      "video2": "Okay, lots of energy there. Thanks everyone, talk soon."
+    }
+  ]
+}
